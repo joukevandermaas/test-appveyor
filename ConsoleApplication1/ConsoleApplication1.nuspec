@@ -4,12 +4,12 @@
     <id>my-appveyor-test-123</id>
     <version>$version$</version>
     <title></title>
-    <authors></authors>
+    <authors>Me</authors>
     <owners></owners>
     <licenseUrl></licenseUrl>
     <projectUrl></projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description></description>
+    <description>Test project please ignore</description>
     <releaseNotes></releaseNotes>
     <copyright></copyright>
     <tags></tags>
