@@ -1,7 +1,5 @@
 $isTag = $Env:APPVEYOR_REPO_TAG;
 
-Write-Host $isTag;
-
 $project = 'ConsoleApplication1';
 $path = Resolve-Path "$project/$project.nuspec";
 
