@@ -6,8 +6,6 @@ assembly_info:
   assembly_version: '{version}'
   assembly_file_version: '{version}'
   assembly_informational_version: '{appveyor_repo_tag_name}'
-install:
-- ps: nuget restore
 build:
   publish_nuget: true
   verbosity: minimal
