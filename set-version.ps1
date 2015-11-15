@@ -8,7 +8,7 @@ $path = Resolve-Path "$project/$project.nuspec";
 Write-Host "Updating nuget version for project $project";
 
 [xml]$nuspec = Get-Content $path;
-if ($isTag) {
+if ($isTag -eq 'true') {
   $nuspec.package.metadata.version = '$version$';
   Write-Host 'Set version to "$version$"';
 } else {
