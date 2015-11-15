@@ -3,15 +3,15 @@
   <metadata>
     <id>my-appveyor-test-123</id>
     <version>$version$</version>
-    <title></title>
+    <title>Appveyor build test</title>
     <authors>Me</authors>
-    <owners></owners>
-    <licenseUrl></licenseUrl>
-    <projectUrl></projectUrl>
+    <owners>Me</owners>
+    <licenseUrl>http://example.org/</licenseUrl>
+    <projectUrl>http://example.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Test project please ignore</description>
     <releaseNotes></releaseNotes>
-    <copyright></copyright>
-    <tags></tags>
+    <copyright>None</copyright>
+    <tags>abcde</tags>
   </metadata>
 </package>
