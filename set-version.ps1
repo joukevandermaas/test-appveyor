@@ -1,13 +1,18 @@
 $isTag = $Env:APPVEYOR_REPO_TAG;
 
 $project = 'ConsoleApplication1';
-$path = "$project/$project.nuspec";
+$path = Resolve-Path "$project/$project.nuspec";
+
+Write-Host "Updating nuget version for project $project";
 
 [xml]$nuspec = Get-Content $path;
 if ($isTag) {
   $nuspec.package.metadata.version = '$version$';
+  Write-Host 'Set version to "$version$"';
 } else {
   $nuspec.package.metadata.version = '$version$-beta';
+  Write-Host 'Set version to "$version$"-beta';
 }
 
 $nuspec.Save($path);
+Write-Host "Saved file $path";
