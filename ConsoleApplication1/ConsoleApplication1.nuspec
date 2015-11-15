@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>my-appveyor-test-123</id>
+    <version>$version$-beta</version>
+    <title>Appveyor build test</title>
+    <authors>Me</authors>
+    <owners>Me</owners>
+    <licenseUrl>http://example.org/</licenseUrl>
+    <projectUrl>http://example.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test project please ignore</description>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>None</copyright>
+    <tags>abcde</tags>
+  </metadata>
+</package>
